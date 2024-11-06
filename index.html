@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body{
+            margin: 0;
+            background-color: blue;
+            color: white;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background: url("https://www.pixelstalk.net/wp-content/uploads/images1/Blue-and-purple-planet-backgrounds-2880x1800.jpg");
+background-position: center;
+background-size: cover;
+            
+        }
+        #abc{
+            text-align: center;
+            margin: auto;
+            border: 2px solid rgba(255,255,255,0.2);
+            width: 400px;
+            background-color: transparent;
+            height: 350px;
+            margin-top: 150px;
+            border-radius: 25px;
+            backdrop-filter: blur(15px);
+            box-shadow: 0, 0, 10px  rgba(0,0,0.2)}
+
+        .iqra {
+            width: 300px;
+            height: 35px;
+            border-radius: 25px;
+            border: 1px solid white;
+            background-color: transparent;
+            color: white;
+            text-indent: 10px; 
+            margin-bottom: 20px;   
+        }
+        .iqra::placeholder {
+            color: white;
+        }
+
+         #asd {
+            display: inline-block;
+         }
+
+        h1{
+            margin: 0;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            color: white;
+
+        }
+
+        p {
+            margin: 0;
+            display: inline;
+        }
+
+        #login {
+            width: 300px;
+            height: 35px;
+            border-radius: 25px;
+            border-color: none;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 16px;
+            color: #333;
+            font-weight: bold;
+        }
+        .links {
+            text-decoration: none;
+            color: white;
+            font-variant: 900;
+        }
+    </style>
+</head>
+<body>
+    <div id="abc">
+        <h1>Login</h1>
+
+        <form> 
+            
+            <input class="iqra" type="text" placeholder="Username"
+            name = "Username"> <br>
+        <input class="iqra"  type="Password" placeholder="Password">  <br>
+
+
+      <div id="asd"> <input type="checkbox" value="verify">
+            <p> Remember Me </p> </div>
+
+            <a  class = "links" style="margin-left: 60px;"></a> Forgot password ?</a>
+            <br> 
+           <input id="login" type="Submit" value="Login"> <br>  
+           <p> Don't have an account ?</p> 
+            <a href="/"> Register</a>
+    
+    
+    </form>
+    </div>
+</body>
+</html>
